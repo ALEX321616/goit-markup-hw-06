@@ -255,7 +255,7 @@ a {
 .backrdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
- /* visibility: hidden;*/
+  /* visibility: hidden;*/
 }
 
 .modal {
@@ -396,7 +396,9 @@ a {
 }
 
 .modal-text textarea:focus,
-.modal-text textarea:hover {
+.modal-text textarea:hover,
+.modal-text textarea:not(:placeholder-shown) {
+  border-color: var(--clr-brend);
   outline: none;
   border-color: var(--clr-brend);
   color: var(--clr-txt);
