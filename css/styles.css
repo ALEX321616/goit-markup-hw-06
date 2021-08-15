@@ -255,7 +255,7 @@ a {
 .backrdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  /*visibility: hidden;*/
+ /* visibility: hidden;*/
 }
 
 .modal {
