@@ -218,6 +218,8 @@ a {
 }
 
 .main-btn {
+  display: block;
+  margin: 0 auto;
   padding: 10px 32px;
   min-width: 200px;
   text-align: center;
@@ -442,6 +444,7 @@ a {
   text-decoration: underline;
   color: var(--clr-brend);
 }
+
 /*----advants section-----*/
 
 .advants-item-title {
