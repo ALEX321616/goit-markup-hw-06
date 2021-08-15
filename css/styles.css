@@ -402,15 +402,41 @@ a {
   color: var(--clr-txt);
 }
 
-.modal-checkbox {
+.check-label {
+  display: flex;
   margin-bottom: 30px;
-}
-.policy-text {
+  justify-content: center;
+  align-items: center;
   line-height: 1.71;
+  font-size: 14px;
   letter-spacing: 0.03em;
+  line-height: 1.71;
   color: var(--clr-txt);
+  padding: 0;
 }
-.policy-link {
+
+.check-input {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+.check-input:checked + .check-box {
+  background-color: var(--clr-brend);
+  background-size: auto;
+  background-origin: border-box;
+  border-color: var(--clr-brend);
+}
+.check-box {
+  display: inline-block;
+  border: 2px solid var(--clr-ttl);
+  border-radius: 4px;
+  margin-right: 7px;
+}
+
+.check-link {
+  display: inline-block;
+  margin-left: 5px;
   text-decoration: underline;
   color: var(--clr-brend);
 }
